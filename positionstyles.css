@@ -72,8 +72,8 @@
   /* This is the parent of the activity 3 boxes. */
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-column-gap: 50px;
-  
+  grid-column-gap: 100px;
+  width: 800px;
 }
 .red3 {
   width: 100%; 
