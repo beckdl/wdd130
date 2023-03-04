@@ -183,6 +183,16 @@ h2{
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #6f7364;
 }
+
+/* Page 2: Rivers */
+#rates {
+    grid-column: 1/10;
+    grid-row: 5/8;
+}
+#river-title {
+    text-align: center;
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
