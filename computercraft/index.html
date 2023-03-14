@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="styles/style.css">
     <title>Home Page</title>
 </head>
 <body>
     <header>
-        <img src="images/computercraft.png" alt="ComputerCraft">
+        <img id="logo" src="images/computercraft.png" alt="ComputerCraft">
         <nav>
             <a href="index.html">Home</a>
             <a href="building.html">Building a Computer</a>
@@ -16,16 +17,16 @@
             <a href="contact.html">Contact Me</a>
         </nav>
         <h1 id="title">Computers</h1>
-        <img src="images/computer_tower.jpg" alt="Computer Tower">
+        <img id="title_photo" src="images/computer_tower.jpg" alt="Computer Tower">
     </header>
     <main>
-        <div>
+        <div id ="beginner">
             <p>Computers are a helpful tool that serve many different purposes in our everyday life. Some people use them for gaming while others just use them to browse the web.</p> 
             <p>There is a benefit to learning how to build a computer and how to troubleshoot it. It will give you a sense of security in knowing that you can be self-reliant in fixing issues that pop up with your device.</p> 
         </div>
         <img src="images/computer_tower_side.jpg" alt="Side of an open computer">
         <h2>General Terms:</h2>
-        <div>
+        <div id="info">
             <p>Motherboard: The backbone of your computer that all components will be connected to</p>
             <p>Ram: Random-Access Memory – memory for the short term storage of information as it is being handled and processed</p> 
             <p>CPU: Central Processing Unit – the main brain of your computer</p>
@@ -35,9 +36,10 @@
     </main>
     <footer>
         <img src="images/computercraft-transparent.png" alt="ComputerCraft">
-        <a href="site-plan.html">Site Plan</a>
-        <a href="contact.html">Contact Me</a>
-        <p id="copyright">ComputerCraft &copy; 2023 - Daniel Beck</p>
+        <div id="subnav">
+            <a href="site-plan.html">Site Plan</a>
+            <a href="contact.html">Contact Me</a>
+        </div>
         <div class="social">
             <a href="https://facebook.com" target="_blank">
                 <img src="images/facebook.png" alt="fb icon">
@@ -49,6 +51,7 @@
                 <img src="images/instagram.png" alt="instagram icon">
             </a>
         </div>
+        <p id="copyright">ComputerCraft &copy; 2023 - Daniel Beck</p>
     </footer>
 </body>
 </html>

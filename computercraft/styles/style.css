@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Cabin&display=swap');
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Anton", sans-serif;
+    color: #1920E6;
+}
+
+header {
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+    align-items: center;
+    max-width: 60%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 270px 1fr;
+}
+#logo {
+    grid-column: 1;
+}
+nav {
+    grid-column: 2/4;
+    margin: auto;
+    background-color: #076AE0;
+    line-height: 3em;
+    text-align: center;
+    font-size: 1.2em;
+    list-style-type: none;
+    font-family: "Cabin", sans-serif;
+}
+nav a {
+    padding:1em;
+    min-width: 120px;
+    text-decoration: none;
+    padding: 10px;
+}
+nav a:link, nav a:visited {
+  color: #02020A;
+}
+nav a:hover {
+  color: white;
+  background-color: #1920E6;
+}
+#title {
+    grid-column: 1;
+    margin: auto;
+    font-size: 80pt;
+    border-style: solid;
+    padding: 30px;
+}
+#title_photo {
+    grid-column: 3/4;
+}
+
+main {
+    display: block;
+    width: 50%;
+    margin: auto;
+    padding-top: 0%;
+    text-align: center;
+}
+main div {
+    font-family: "Cabin", sans-serif;
+    color: #076AE0;
+    font-size: 14pt;
+    border-style: solid;
+    padding: 20px;
+}
+#beginner {
+    margin-bottom: 50px;
+}
+h2 {
+    font-size: 25pt;
+}
+
+footer {
+    margin: auto;
+    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 50px;
+}
+#subnav {
+    background-color: #076AE0;
+    line-height: 3em;
+    text-align: center;
+    font-size: 1.2em;
+    list-style-type: none;
+    font-family: "Cabin", sans-serif;
+}
+#subnav a {
+    padding:1em;
+    min-width: 120px;
+    text-decoration: none;
+    padding: 10px;
+}
+#subnav a:link, #subnav a:visited {
+  color: #02020A;
+}
+#subnav a:hover {
+  color: white;
+  background-color: #1920E6;
+}
+#social {
+    grid-row: 1;
+    grid-column: 3;
+}
+footer p{
+    grid-column: 2;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 12pt;
+}
