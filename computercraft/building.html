@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="styles/style.css">
     <title>Home Page</title>
 </head>
 <body>
     <header>
-        <img src="images/computercraft.png" alt="ComputerCraft">
+        <img id="logo" src="images/computercraft.png" alt="ComputerCraft">
         <nav>
             <a href="index.html">Home</a>
             <a href="building.html">Building a Computer</a>
@@ -16,17 +17,17 @@
             <a href="contact.html">Contact Me</a>
         </nav>
         <h1 id="title">Building a Computer</h1>
-        <img src="images/computerparts.jpg" alt="Motherboards">
+        <img id="title_photo" src="images/computerparts.jpg" alt="Motherboards">
     </header>
     <main>
-        <div>
+        <div id ="beginner">
             <p>
                 Building a computer can be a daunting task if you have never had the chance to do it before. On this page we are going to be going through some simple steps that 
                 you can look through so that you can start off on the right foot.
             </p>
         </div>
         <h2>Process</h2>
-        <div>
+        <div id="info">
             <p>Gather parts</p>
             <p>
                 This may be one of the most important steps. Make sure that wherever you get the parts for your computer that it is from a good reputable source and that they won’t 
@@ -54,9 +55,10 @@
     </main>
     <footer>
         <img src="images/computercraft-transparent.png" alt="ComputerCraft">
-        <a href="site-plan.html">Site Plan</a>
-        <a href="contact.html">Contact Me</a>
-        <p id="copyright">ComputerCraft &copy; 2023 - Daniel Beck</p>
+        <div id="subnav">
+            <a href="site-plan.html">Site Plan</a>
+            <a href="contact.html">Contact Me</a>
+        </div>
         <div class="social">
             <a href="https://facebook.com" target="_blank">
                 <img src="images/facebook.png" alt="fb icon">
@@ -68,6 +70,7 @@
                 <img src="images/instagram.png" alt="instagram icon">
             </a>
         </div>
+        <p id="copyright">ComputerCraft &copy; 2023 - Daniel Beck</p>
     </footer>
 </body>
 </html>
