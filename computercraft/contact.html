@@ -4,8 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="styles/style.css">
+    <script src="scripts/script.js"></script>
     <title>Contact me</title>
 </head>
+
+
 <body>
     <header>
         <img src="images/computercraft.png" alt="ComputerCraft">
@@ -16,34 +20,42 @@
             <a href="contact.html">Contact Me</a>
         </nav>
         <h1 id="title">Contact Form</h1>
+        <img id="title_photo" src="images/phone.png" alt="Phone">
     </header>
     <main>
-        <div id="feedback"></div>
-        <form action="/my-handling-form-page" method="post">
-            <ul>
-                <li>
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="user_name" />
-                </li>
-                <li>
-                    <label for="mail">Email:</label>
-                    <input type="email" id="mail" name="user_email" />
-                </li>
-                <li>
-                    <label for="msg">Message:</label>
-                    <textarea id="msg" name="user_message"></textarea>
-                </li>
-                <li class="button">
-                    <button type="submit">Send your message</button>
-                </li>
-            </ul>
-        </form>
+        <button id="close" onclick="myFunction()">Click to Close</button>
+
+        <div id="myDIV">
+        
+            <div id="feedback"></div>
+            <form action="/my-handling-form-page" method="post">
+                <ul>
+                    <li>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="user_name" />
+                    </li>
+                    <li>
+                        <label for="mail">Email:</label>
+                        <input type="email" id="mail" name="user_email" />
+                    </li>
+                    <li>
+                        <label for="msg">Message:</label>
+                        <textarea id="msg" name="user_message"></textarea>
+                    </li>
+                    <li class="button">
+                        <button type="submit">Send your message</button>
+                    </li>
+                </ul>
+            </form>
+        </div>
     </main>
     <footer>
         <img src="images/computercraft-transparent.png" alt="ComputerCraft">
-        <a href="site-plan.html">Site Plan</a>
-        <a href="contact.html">Contact Me</a>
-        <p id="copyright">ComputerCraft &copy; 2023 - Daniel Beck</p>
+        <div id="subnav">
+            <a href="site-plan.html">Site Plan</a>
+            <a href="contact.html">Contact Me</a>
+        </div>
+        
         <div class="social">
             <a href="https://facebook.com" target="_blank">
                 <img src="images/facebook.png" alt="fb icon">
@@ -55,6 +67,9 @@
                 <img src="images/instagram.png" alt="instagram icon">
             </a>
         </div>
+        <p id="copyright">ComputerCraft &copy; 2023 - Daniel Beck</p>
     </footer>
 </body>
 </html>
+
+
