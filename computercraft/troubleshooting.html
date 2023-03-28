@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="styles/style.css">
     <title>Home Page</title>
 </head>
 <body>
     <header>
-        <img src="images/computercraft.png" alt="ComputerCraft">
+        <img id="logo" src="images/computercraft.png" alt="ComputerCraft">
         <nav>
             <a href="index.html">Home</a>
             <a href="building.html">Building a Computer</a>
@@ -16,10 +17,10 @@
             <a href="contact.html">Contact Me</a>
         </nav>
         <h1 id="title">Troubleshooting</h1>
-        <img src="images/computer_repair.jpg" alt="Fixing a Computer">
+        <img id="title_photo" src="images/computer_repair.jpg" alt="Fixing a Computer">
     </header>
     <main>
-        <div>
+        <div id ="beginner">
             <p>
                 There are many ways to troubleshoot the issues that occur on your computer. Issues can happen at any time with your computer whether you are just starting to build 
                 it or you have had it working for several years. There are different ways to troubleshoot and depending on what it is that is having the issue you can approach the 
@@ -27,7 +28,7 @@
             </p>
         </div>
         <h2>Ways to Troubleshoot</h2>
-        <div>
+        <div id="info">
             <p>Lights/Audio</p>
             <p>
                 While you are building your computer there are different parts that can help and warn you if there are issues. Sometimes the motherboard will have an area that 
@@ -50,9 +51,10 @@
     </main>
     <footer>
         <img src="images/computercraft-transparent.png" alt="ComputerCraft">
-        <a href="site-plan.html">Site Plan</a>
-        <a href="contact.html">Contact Me</a>
-        <p id="copyright">ComputerCraft &copy; 2023 - Daniel Beck</p>
+        <div id="subnav">
+            <a href="site-plan.html">Site Plan</a>
+            <a href="contact.html">Contact Me</a>
+        </div>
         <div class="social">
             <a href="https://facebook.com" target="_blank">
                 <img src="images/facebook.png" alt="fb icon">
@@ -64,6 +66,7 @@
                 <img src="images/instagram.png" alt="instagram icon">
             </a>
         </div>
+        <p id="copyright">ComputerCraft &copy; 2023 - Daniel Beck</p>
     </footer>
 </body>
 </html>
